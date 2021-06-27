@@ -10,8 +10,6 @@ body {
 }
 
 .container-main {
-    max-width: 900px;
-    min-width: 900px;
     display: grid;
     grid-template-columns: 35% 65%;
     box-shadow: 0 0 10px black;
@@ -73,6 +71,7 @@ a:hover {
 }
 
 .contact-div {
+    width: 40%;
     padding-left: 8%;
     font-size: 30px;
     color: white;
@@ -88,6 +87,7 @@ a:hover {
 }
 
 .email-div {
+    width: 90%;
     padding-left: 10%;
     color: white;
     font-size: 17px;
@@ -103,6 +103,7 @@ a:hover {
 }
 
 .name {
+    width: 80%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     padding-left: 60px;
@@ -115,7 +116,7 @@ a:hover {
     margin-left: 60px;
     padding-left: 10px;
     margin-top: -30px;
-    width: 223px;
+    width: 44%;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -142,7 +143,7 @@ h2 {
 .skills {
     display: grid;
     grid-template-columns: 30% 30%;
-    margin-left: 40px;
+    margin-left: 55px;
 }
 
 .skills li {  
@@ -182,4 +183,21 @@ h3 {
 
 .list3 li{
     width: 100%;
+}
+
+
+@media screen and (max-width:1920px){
+    .container-main{
+        min-width: 900px;
+    }    
+}
+
+@media screen and (min-width:1920px){
+    .container-main{
+        max-width: 900px;
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .
 }
