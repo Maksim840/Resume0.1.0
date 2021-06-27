@@ -199,5 +199,13 @@ h3 {
 }
 
 @media screen and (max-width: 320px) {
-    .
+    .container-main {
+        min-width : 320px
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .container-main {
+        max-width : 320px
+    }
 }
