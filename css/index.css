@@ -116,7 +116,7 @@ a:hover {
     margin-left: 60px;
     padding-left: 10px;
     margin-top: -30px;
-    width: 44%;
+    width: 40%;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -135,8 +135,8 @@ h2 {
 }
 
 .experience li {
-    list-style: none;
-    margin-left: -18px;
+
+    margin-left: 5px;
     font-family: 'Open Sans', sans-serif;
 }
 
