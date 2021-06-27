@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: rgb(194, 194, 194);
+}
+
+.container-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    box-shadow: 0 0 10px black;
+}
+
+.left-side {
+    background: rgb(44, 44, 44);
+}
+
+.right-side {
+    background: rgb(255, 255, 255);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 0% 0%;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.cont {
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.works{
+    padding-top: 10px;
+    padding-left: 160px;
+}
+
+.img {
+    width: 100%;
+}
+
+.imageOfMan {
+    width: 100%;
+}
+
+.contact-div {
+    padding-left: 8%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.phone {
+    padding-left: 10%;
+    font-size: 17px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.email-div {
+    padding-left: 10%;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.address {
+    padding-left: 10%;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 60px;
+}
+
+.description {
+    background-color: rgb(238, 238, 238);
+    font-size: 18px;
+    margin-left: 60px;
+    padding-left: 10px;
+    margin-top: -30px;
+    width: 223px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    margin-left: 40px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.experience li {
+    list-style: none;
+    margin-left: -18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    margin-left: 40px;
+}
+
+.skills li {
+    list-style: none;
+    margin-left: -18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link_to_github {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hobbies li {
+    list-style: none;
+    margin-left: -18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list5 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.link_to_github:hover {
+    color:black;
+}
